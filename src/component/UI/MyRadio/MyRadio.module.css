@@ -1,0 +1,58 @@
+.radio{
+    margin-bottom: 25px;
+}
+
+.radio_radio{
+    display: none;
+}
+.radio_box{
+    margin-bottom: 10px;
+}
+.radio_row{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+/*Наружная часть кнопки радио*/
+.radio_fake{
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid #777777;
+    display: inline-block;
+    position: relative;
+}
+/*checked кнопка в радио*/
+.radio_fake::before{
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background: #000;*/
+    opacity: 0;
+    transition: all .2s;
+    
+}
+.radio_text{
+    color: #777;
+}
+/*Стилизация наружной нажатой части кнопки*/
+.radio_radio:checked + .radio_fake{
+    background: #FE6600;
+    border:1px solid #FE6600;
+}
+/*Стилизация нажатой кнопки*/
+.radio_radio:checked + .radio_fake::before{
+    opacity: 1;
+    background: #fff;
+}
+@media(max-width: 480px){
+    .radio_text{
+        font-size: 16px;
+    }
+}

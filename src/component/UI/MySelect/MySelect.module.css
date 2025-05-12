@@ -1,0 +1,125 @@
+.select_box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.field{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background: rgba(0, 0, 0, 0.7);*/
+    display: none;
+    /*Чтобы быть выше всего кроме .options_container, дабы закрыть селект по нажатию н этот див.*/
+    z-index: 10;
+}
+.select_box.active .field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+
+}
+.select_box .options_container{
+    background: #2C323F;
+    border-radius: 0 0 7px 7px;
+    color:white;
+    transition: all 0.4s;
+    overflow: hidden;
+    margin:-4px 0 10px 0;
+    position: absolute;
+    top: 33px;
+    /*Чтобы спрятать при не активности*/
+    max-height: 0;
+    opacity: 0;
+    /*Проверить нужность*/
+    width: 100%;
+    /*Родитель flex.Нужно чтобы контейр c options был вверху в html но отображался */
+    /*после selected чтобы сработал переворот svg иконки */
+    order:1;
+    /*Чтобы быть выше пустого div.field который займет все пространство и по его клику закроет селект*/
+    z-index: 1100;
+}
+
+/*СКРОЛЛБАР */
+.select_box .options_container::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 7px;
+}
+/*Там где двигется*/
+.select_box .options_container::-webkit-scrollbar-track {
+    background: #3a3838;
+    border-radius: 7px;
+
+}
+/*То что двигается*/
+.select_box .options_container::-webkit-scrollbar-thumb{
+    border-radius: 7px;
+    background: #666;
+}
+
+
+
+
+/*Стили для кнопок*/
+.select_box .option, .selected{
+    cursor:pointer;
+    padding: 8px 16px;
+}
+
+.select_box label{
+    cursor: pointer;
+}
+
+.select_box .option:hover{
+    background: #666;
+}
+/*Убираем радио кнопки*/
+.select_box .radio{
+    display: none;
+}
+
+/*Установим срелку*/
+
+.selected{
+    background: #2C323F;
+    color: white;
+    border-radius: 7px 7px 7px 7px;
+    position: relative;
+    /*Родитель flex.Нужно чтобы контейр c options был вверху в html но отображался */
+    /*после selected чтобы сработал переворот svg иконки */
+    order:0;
+}
+.selected::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background: url('./../../../image/icon/arrowBottom.svg');
+    background-repeat: no-repeat;
+    width: 15px;
+    right:15px;
+}
+
+
+/*При активации*/
+.select_box .options_container.active{
+    max-height: 150px;
+    opacity: 1;
+    overflow-y: auto;
+}
+.select_box .options_container.active + .selected::before{
+    transform: rotateX(180deg);
+    top:-12px;
+}
+/*.select_box.active {*/
+/*    position: relative;*/
+/*}*/
+/*.select_box.active .options_container.active{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*}*/

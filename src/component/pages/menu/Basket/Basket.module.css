@@ -1,0 +1,41 @@
+.basketContent{
+    background: #F7F8FA;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 750px;
+}
+.subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.totalSum{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.totalSum div{
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+@media(max-width: 767px){
+    .basketContent{
+        margin: 0 -15px;
+        padding: 20px 15px;
+    }
+}
+@media(max-width: 550px){
+    .basketContent{
+        margin: 0 -27px;
+        padding: 20px 15px;
+    }
+}
+@media(max-width: 450px){
+    .basketContent{
+        padding: 20px 10px;
+    }
+}

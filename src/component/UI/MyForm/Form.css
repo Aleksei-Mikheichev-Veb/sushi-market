@@ -1,0 +1,10 @@
+.buttonsControl{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.error{
+    color: red;
+    font-size: 16px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,119 @@
+.productCard_column{
+    flex: 0 0 25%;
+    padding: 0 10px;
+    display: flex;
+    min-height: 100%;
+}
+
+/*.productCard_column_mode{*/
+/*    height: 450px;*/
+/*}*/
+/*@media(max-width: 1400px){*/
+/*    .productCard_column_mode{*/
+/*        height: 350px;*/
+/*    }*/
+/*}*/
+.productCard{
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+}
+
+.imageBox{
+    position: relative;
+    padding: 0 0 70% 0;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.productImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.description_title{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.description_structure{
+    font-size: 16px;
+    color: #808080;
+    margin-bottom: 20px;
+    flex:1 1 auto;
+}
+
+.description_description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description_price{
+    display: flex;
+    align-items: center;
+    color: #3c3a38;
+    font-size: 24px;
+    font-weight: bold;
+}
+.description_params{
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+}
+.description_weight, .description_kCal, .description_count{
+    color: #808080;
+    font-size: 16px;
+}
+
+.description_kCal{
+
+}
+.basketIcon{
+    width: 25px;
+    height: 25px;
+    fill:white;
+    transition: .2s;
+}
+
+.rublIcon{
+    width: 20px;
+    height: 20px;
+    fill: black;
+}
+.plusIcon {
+    width: 60px;
+    height: 60px;
+    fill:red;
+}
+/*.buttonClicked{*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    color:white;*/
+/*}*/
+
+@media(max-width:1200px){
+    .productCard_column{
+        flex: 0 0 33.3333%;
+    }
+}
+@media(max-width:767px){
+    .productCard_column{
+        flex: 0 0 50%;
+    }
+}
+@media(max-width:576px){
+    .productCard_column{
+        flex: 0 0 100%;
+    }
+}

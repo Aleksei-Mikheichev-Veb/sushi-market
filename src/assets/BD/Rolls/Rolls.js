@@ -1,0 +1,268 @@
+import {images} from './imagesRolls'
+
+export const rolls = [
+    {
+        id:91 ,
+        categoria: '1',
+        img: images.bigFish,
+        title: 'Биг Фиш',
+        structure: 'РИС,НОРИ,СЫР СЛИВОЧНЫЙ,ТАКУАН,САЛАТ АЙСБЕРГ,ТУНЕЦ,ФИРМЕНЫЙ',
+        price: '325',
+        countRolls: '8',
+        weight: '320',
+        kCal: '220'
+    },
+    {
+        id:92 ,
+        categoria: '1',
+        img: images.maguro,
+        title: 'Магуро',
+        structure: 'РИС,НОРИ,ОГУРЕЦ,СЫР СЛИВОЧНЫЙ, ТУНЕЦ,МАСАГО,СОУС УНАГИ',
+        price: '275',
+        countRolls: '8',
+        weight: '270',
+        kCal: '220'
+    },
+    {
+        id:93 ,
+        categoria: '1',
+        img: images.filadelfiaClassic,
+        title: 'Филадельфия классик',
+        structure: 'НОРИ, РИС, ЛОСОСЬ, ОГУРЕЦ.',
+        price: '335',
+        countRolls: '8',
+        weight: '215',
+        kCal: '263'
+    },
+    {
+        id: 94,
+        categoria: '1',
+        img: images.rollTaho,
+        title: 'Ролл Тахо',
+        structure: 'РИС,НОРИ,СЫР СЛИВОЧНЫЙ,ЛОСОСЬ,ОГУРЕЦ,ХЛОПЬЯ НОРИ ',
+        price: '280',
+        countRolls: '8',
+        weight: '200',
+        kCal: '180'
+    },
+    {
+        id:95 ,
+        categoria: '1',
+        img: images.rollTaho,
+        title: 'Веган',
+        structure: 'лук фри, салат Айсберг, перец болгарский, томат, огурец, нори, рис',
+        price: '210',
+        countRolls: '8',
+        weight: '200',
+        kCal: '145'
+    },
+    {
+        id: 96,
+        categoria: '1',
+        img: images.rollTaho,
+        title: 'ЧЁРНАЯ МАМБА',
+        structure: 'Рис,нори, сыр сливочный, огурец,томаго,чернило каракатицы',
+        price: '260',
+        countRolls: '8',
+        weight: '240',
+        kCal: '170'
+    },
+    {
+        id: 97,
+        categoria: '1',
+        img: images.rollTaho,
+        title: 'БЛЭК САЛЬМОН',
+        structure: 'Рис,нори,чернило каракатицы,лосось, сыр сливочный, огурец ,майонез,масаго',
+        price: '335',
+        countRolls: '8',
+        weight: '215',
+        kCal: '155'
+    },
+    {
+        id: 98,
+        categoria: '1',
+        img: images.rollTaho,
+        title: 'ФЛАМИНГО',
+        structure: 'Идеальное сочетание краба(имитация), огурца, сливочного сыра,майонеза и свекольного сока, с добавлением чёрного кунжута',
+        price: '275',
+        countRolls: '8',
+        weight: '230',
+        kCal: '160'
+    },
+    {
+        id:99 ,
+        categoria: '2',
+        img: images.sumoSan,
+        title: 'СУМО-САН',
+        structure: 'РИС,НОРИ,ОГУРЕЦ,ЛОСОСЬ,НЕЖНЕЙШИЙ СЫР,КРЕВЕТКА,БЕЛЫЙ СОУС.',
+        price: '395',
+        countRolls: '8',
+        weight: '300',
+        kCal: '369'
+    },
+    {
+        id: 910,
+        categoria: '2',
+        img: images.mrCrabs,
+        title: 'MR.КРАБС',
+        structure: 'РИС,НОРИ,ОГУРЕЦ,МАСАГО,КРАБ(ИМИТАЦИЯ),АВОКАДО.',
+        price: '290',
+        countRolls: '8',
+        weight: '250',
+        kCal: '260'
+    },
+    {
+        id: 911,
+        categoria: '2',
+        img: images.american,
+        title: 'АМЕРИКАНСКИЙ',
+        structure: 'РИС,НОРИ,ОГУРЕЦ,НЕЖНЕЙШИЙ СЫР,МАСАГО,ЛОСОСЬ,УГОРЬ.',
+        price: '410',
+        countRolls: '8',
+        weight: '265',
+        kCal: '367'
+    },
+    {
+        id: 912,
+        categoria: '2',
+        img: images.kokoVShineli,
+        title: 'КОКО В ШИНЕЛИ',
+        structure: 'РИС,НОРИ,НЕЖНЕЙШИЙ СЫР,КУРИЦА КОПЧЕНАЯ,ЛИСТ САЛАТА,ПОМИДОР.',
+        price: '280',
+        countRolls: '8',
+        weight: '255',
+        kCal: '325'
+    },
+    {
+        id: 913,
+        categoria: '2',
+        img: images.tibet,
+        title: 'ТИБЕТ',
+        structure: 'РИС,НОРИ,АВОКАДО,СЫР СЛИВОЧНЫЙ,ТОМАГО,УГОРЬ.',
+        price: '390',
+        countRolls: '8',
+        weight: '260',
+        kCal: '372'
+    },
+    {
+        id: 914,
+        categoria: '2',
+        img: images.furai,
+        title: 'ФУРАЙ',
+        structure: 'РИС,НОРИ,ОГУРЕЦ,ЛОСОСЬ,КРЕВЕТКА,УГОРЬ,СОУС УНАГИ,КУНЖУТ.',
+        price: '420',
+        countRolls: '8',
+        weight: '250',
+        kCal: '360'
+    },
+    {
+        id:915 ,
+        categoria: '2',
+        img: images.filaHot,
+        title: 'ФИЛА-ХОТ',
+        structure: 'РИС,НОРИ,ОГУРЕЦ,НЕЖНЕЙШИЙ СЫР,ЛОСОСЬ.',
+        price: '325',
+        countRolls: '8',
+        weight: '250',
+        kCal: '385'
+    },
+    {
+        id:916 ,
+        categoria: '2',
+        img: images.shimpRoll,
+        title: 'ШРИМП РОЛЛ',
+        structure: 'РИС,НОРИ,ОГУРЕЦ,ЛИСТ САЛАТА,ПАПРИКА,КРЕВЕТКА,СПАЙСИ СОУС.',
+        price: '340',
+        countRolls: '8',
+        weight: '255',
+        kCal: '287'
+    },
+    {
+        id: 917,
+        categoria: '3',
+        img: images.fudzi,
+        title: 'ФУДЗИ',
+        structure: 'РИС,НОРИ,СЛИВОЧНЫЙ СЫР, ТАКУАН,ЛОСОСЬ ГРИЛЬ,СОУС МАНГО',
+        price: '340',
+        countRolls: '8',
+        weight: '230',
+        kCal: '275'
+    },
+    {
+        id: 918,
+        categoria: '3',
+        img: images.rollDonBekon,
+        title: 'РОЛЛ ДОН БЕКОН',
+        structure: 'РИС,НОРИ,БЕКОН,СЫР СЛИВОЧНЫЙ,БЛИН ТОМАГО,САЛАТ АЙСБЕРГ,СОУС БЕЛЫЙ',
+        price: '290',
+        countRolls: '8',
+        weight: '260',
+        kCal: '320'
+    },
+    {
+        id: 919,
+        categoria: '3',
+        img: images.hodaiko,
+        title: 'ХОКАЙДО',
+        structure: 'РИС,НОРИ,ТУНЕЦ,ОГУРЕЦ, ФИРМЕНЫЙ СОУС,СОУС СПАЙСИ,БЕЛЫЙ СОУС',
+        price: '275',
+        countRolls: '8',
+        weight: '230',
+        kCal: '295'
+    },
+    {
+        id: 920,
+        categoria: '3',
+        img: images.vulkan,
+        title: 'ВУЛКАН',
+        structure: 'РИС,НОРИ,БЛИН ТОМАГО,ЛОСОСЬ,ОГУРЕЦ,ЛУК ЗЕЛЕНЫЙ,СОУС СПАЙСИ,СОУС СВИТ ЧИЛИ',
+        price: '275',
+        countRolls: '8',
+        weight: '275',
+        kCal: '320'
+    },
+    {
+        id:921 ,
+        categoria: '4',
+        img: images.spaisiTunec,
+        title: 'СПАЙСИ ТУНЕЦ',
+        structure: 'РИС,НОРИ,ТУНЕЦ,ЛИСТ САЛАТА,СОУС СПАСИ.',
+        price: '175',
+        countRolls: '6',
+        weight: '115',
+        kCal: '120'
+    },
+    {
+        id:922 ,
+        categoria: '4',
+        img: images.cheez,
+        title: 'СЫРНЫЙ',
+        structure: 'РИС, НОРИ,СЫР СЛИВОЧНЫЙ.',
+        price: '140',
+        countRolls: '6',
+        weight: '130',
+        kCal: '145'
+    },
+    {
+        id: 923,
+        categoria: '4',
+        img: images.spaisiMidii,
+        title: 'СПАЙСИ МИДИИ',
+        structure: 'РИС,НОРИ,МИДИИ,ЛИСТ САЛАТА,СОУС СПАЙСИ.',
+        price: '160',
+        countRolls: '6',
+        weight: '115',
+        kCal: '125'
+    },
+    {
+        id: 924,
+        categoria: '4',
+        img: images.slivochniiTunec,
+        title: 'СЛИВОЧНЫЙ ТУНЕЦ',
+        structure: 'РИС, НОРИ, ТУНЕЦ, СЫР СЛИВОЧНЫЙ.',
+        price: '185',
+        countRolls: '6',
+        weight: '130',
+        kCal: '110'
+    },
+]

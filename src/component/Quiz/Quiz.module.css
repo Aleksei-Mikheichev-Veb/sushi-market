@@ -1,0 +1,126 @@
+.quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.quiz_contant{
+    max-width: 450px;
+    min-height: 200px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.quiz_title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #3C3A38;
+}
+.quiz_answer {
+    flex: 1 0 100%;
+    display: flex;
+    /*align-items: center;*/
+}
+.quiz_control{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+.pickup_subtitle{
+    margin-bottom: 20px;
+}
+.delivery_row{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.howQuickly_box{
+    margin-top: -25px;
+}
+
+
+.contactDetail{
+    margin-bottom: 20px;
+}
+
+
+.input_time{
+    margin-bottom: 15px;
+}
+
+.thankYou{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.thankYou_icon{
+    width: 55px;
+    height: 55px;
+    fill:#FE6600;
+    margin-bottom: 15px;
+}
+.thanYou_title{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.thankYou_text{
+
+}
+
+
+@media(max-width: 480px){
+    .quiz_contant{
+        min-width: 250px;
+    }
+    .quiz_title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.preloader{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    border-radius: 50%;
+    border:5px dashed #FE6600;
+    animation: preloader 2s linear infinite;
+}
+
+
+@keyframes preloader {
+    0% {
+        transform: rotate(0deg) scale(1) translate(-50%, -50%);
+        transform-origin: 0 0;
+    }
+    50%{
+        transform: rotate(180deg) scale(1.2) translate(-50%, -50%);
+        transform-origin: 0 0;
+    }
+    100%{
+        transform: rotate(360deg) scale(1) translate(-50%, -50%);
+        transform-origin: 0 0;
+    }
+}

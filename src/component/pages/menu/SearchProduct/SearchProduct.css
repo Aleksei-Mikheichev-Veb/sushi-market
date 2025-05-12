@@ -1,0 +1,43 @@
+.searchProduct_search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.searchProduct_input{
+    flex:0 0 40%;
+}
+
+.searchedProduct{
+    margin-top: 20px;
+}
+.enterSearch{
+    font-size: 20px;
+    color:#3C3A38;
+}
+
+.input{
+    border:1px solid #CCCCCC;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+    user-select: auto !important;
+}
+.input:not(:last-child){
+    margin-bottom: 20px;
+}
+.input:focus{
+    outline:3px solid #FE6600;
+    border:none;
+}
+
+@media(max-width: 767px){
+    .searchProduct_input{
+        flex:0 0 100%;
+    }
+}

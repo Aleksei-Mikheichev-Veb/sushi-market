@@ -1,0 +1,183 @@
+.button{
+    border-radius: 10px;
+    border:3px solid #FE6600;
+    padding: 6px 20px;
+    font-size: 16px;
+    background: #FE6600;
+    cursor: pointer;
+    transition: .2s;
+    position: relative;
+    color: white;
+}
+.button:active{
+    transform:translateY(3px);
+}
+
+.button:hover ,.button:hover .basketIcon *{
+    background: #fff;
+    border:3px solid #Fff;
+    fill:#FE6600;
+    color: #FE6600;
+
+}
+.buttonWithBorder:hover{
+    border:3px solid #FE6600;
+}
+
+.button:hover .totalPrice{
+    color: #FE6600;
+
+}
+.button:hover .countProducts{
+    background: #FE6600;
+    color: white;
+}
+
+.buttonTransparent{
+    border:3px solid #FE6600;
+    transition: .2s;
+    background: #fff;
+    transition: .2s;
+    color:#FE6600;
+}
+.buttonTransparent:hover{
+    background: #FE6600;
+    border:3px solid #FE6600;
+    color:#fff;
+}
+.buttonTransparentActive{
+    border:3px solid #FE6600;
+    transition: .2s;
+    background: #FE6600;
+    transition: .2s;
+    color:#fff;
+}
+.buttonTransparentActive:hover{
+    border:3px solid #FE6600;
+    background: #FE6600;
+    color:#fff;
+}
+.basket{
+    padding: 4px 20px;
+}
+.basket a{
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*gap:10px;*/
+}
+.basket:hover a div{
+    color:#FE6600;
+}
+.white{
+    background: #fff;
+    border:3px solid #fff;
+    display: flex;
+    align-items: center;
+    color: #000;
+    transition: .2s;
+    fill: black;
+}
+.white:hover{
+    background: #FE6600;
+    border:3px solid #FE6600;
+    color: #fff;
+}
+.white:hover .searchIcon{
+    fill:white;
+}
+
+
+
+.buttonCircle{
+    border:3px solid #CCCCCC;
+    border-radius: 50%;
+    transition: .2s;
+    background: #fff;
+    padding: 5px;
+    color:#CCCCCC;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonCircle.buttonCircleClose{
+    border:3px solid #FE6600;
+    color:#FE6600;
+}
+.buttonCircle:hover{
+    background: #FE6600;
+    border:3px solid #FE6600;
+    color:#fff;
+}
+
+
+
+
+.buttonBig{
+    position: relative;
+    overflow: hidden;
+    width: 71px;
+    height: 47px;
+}
+.buttonBig .basketIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+
+}
+.buttonBig:hover{
+    border:3px solid #FE6600;
+    background: #FE6600;
+    width: 71px;
+    height: 47px;
+}
+.buttonBig:hover .basketIcon *,.buttonBig:hover .basketIcon {
+    fill:white;
+    top: -50%;
+}
+
+
+.button:disabled{
+    background: #943b00;
+    border:3px solid #943b00;
+    color:white;
+
+}
+.button:disabled:hover{
+    background: #943b00;
+    border:3px solid #943b00;
+}
+
+
+.buttonBig .plusIcon {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+    width: 25px;
+    height: 25px;
+    fill:white;
+}
+.buttonBig:hover .plusIcon {
+    top: 50%;
+}
+
+/*Когда кликнутакнопка и нужнопоказать "ЕЩЕ"*/
+.buttonBig .buttonClicked{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}
+@media(max-width:576px){
+    .buttonBig{
+        width: 61px;
+        height: 37px;
+    }
+}

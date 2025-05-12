@@ -1,0 +1,29 @@
+.wayOfReception{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    gap: 50px;
+}
+.wayOfReception_item{
+    text-align: center;
+    border:1px solid #ccc;
+    padding: 10px 10px 0 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.wayOfReception_icon{
+    width: 55px;
+    height: 55px;
+    fill:#FE6600;
+}
+
+@media(max-width: 480px){
+    .wayOfReception{
+        gap: 20px;
+    }
+    .wayOfReception_item{
+        padding: 10px;
+        width: 120px;
+    }
+}
