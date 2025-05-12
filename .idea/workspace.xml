@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ea29ff1-28fa-4d5b-9c9a-9bd03fe3eb50" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MKMMLVkCE53fRa5c57nK8wm6Gy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/Quiz" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React\Projects\MyProject\sushi-yes\src\component\Quiz" />
+      <recent name="D:\React\Projects\MyProject\sushi-yes\src\component\UI\MyRadio" />
+      <recent name="D:\React\Projects\MyProject\sushi-yes\src\component\UI\MyInput" />
+      <recent name="D:\React\Projects\MyProject\sushi-yes\src\component\pages\menu\SearchProduct" />
+      <recent name="D:\React\Projects\MyProject\sushi-yes\src\component\OtherMenu" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\React\Projects\MyProject\sushi-yes\src\component\UI\Slider" />
+      <recent name="D:\React\Projects\MyProject\sushi-yes\src\assets" />
+      <recent name="D:\React\Projects\MyProject\sushi-yes\src\component\pages\menu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/App.js" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/package.json" />
+          <command value="start" />
+          <node-interpreter value="project" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ea29ff1-28fa-4d5b-9c9a-9bd03fe3eb50" name="Changes" comment="" />
+      <created>1677511779162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677511779162</updated>
+      <workItem from="1677511784934" duration="63646000" />
+      <workItem from="1677829089188" duration="10099000" />
+      <workItem from="1677845487628" duration="594000" />
+      <workItem from="1677848101789" duration="32222000" />
+      <workItem from="1678010690948" duration="19670000" />
+      <workItem from="1678089784290" duration="6471000" />
+      <workItem from="1678100409678" duration="38379000" />
+      <workItem from="1678269781667" duration="3825000" />
+      <workItem from="1678346745775" duration="19341000" />
+      <workItem from="1678432279933" duration="24743000" />
+      <workItem from="1678522672325" duration="11273000" />
+      <workItem from="1678543457377" duration="9183000" />
+      <workItem from="1678612528378" duration="10153000" />
+      <workItem from="1678701625186" duration="13132000" />
+      <workItem from="1678776713171" duration="22308000" />
+      <workItem from="1678863594739" duration="28427000" />
+      <workItem from="1678950128366" duration="23589000" />
+      <workItem from="1679040549256" duration="16639000" />
+      <workItem from="1679060614870" duration="44092000" />
+      <workItem from="1679234592923" duration="288000" />
+      <workItem from="1679235622092" duration="7088000" />
+      <workItem from="1679296098322" duration="21044000" />
+      <workItem from="1679383837769" duration="20068000" />
+      <workItem from="1679467315687" duration="18601000" />
+      <workItem from="1679493130260" duration="6021000" />
+      <workItem from="1679553545667" duration="38511000" />
+      <workItem from="1679730411311" duration="14285000" />
+      <workItem from="1679749753701" duration="9967000" />
+      <workItem from="1679823063287" duration="16448000" />
+      <workItem from="1679922621090" duration="2535000" />
+      <workItem from="1679988450745" duration="4403000" />
+      <workItem from="1679993585849" duration="69000" />
+      <workItem from="1679996954534" duration="2485000" />
+      <workItem from="1680011868530" duration="8434000" />
+      <workItem from="1680094573543" duration="2359000" />
+      <workItem from="1680338546821" duration="2388000" />
+      <workItem from="1680423422062" duration="5496000" />
+      <workItem from="1680590714971" duration="5846000" />
+      <workItem from="1680607777979" duration="4449000" />
+      <workItem from="1680695598299" duration="12000" />
+      <workItem from="1681296512727" duration="11353000" />
+      <workItem from="1681375751817" duration="15812000" />
+      <workItem from="1681480134411" duration="14408000" />
+      <workItem from="1681571805721" duration="6821000" />
+      <workItem from="1681646026876" duration="7427000" />
+      <workItem from="1681716833270" duration="7995000" />
+      <workItem from="1681801159130" duration="19183000" />
+      <workItem from="1681886922738" duration="21334000" />
+      <workItem from="1681977497077" duration="17726000" />
+      <workItem from="1682059641106" duration="25581000" />
+      <workItem from="1682239556758" duration="2369000" />
+      <workItem from="1683889021762" duration="1896000" />
+      <workItem from="1730299246401" duration="274000" />
+      <workItem from="1732797245628" duration="3541000" />
+      <workItem from="1745474470679" duration="10550000" />
+      <workItem from="1746098836897" duration="14486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/pages/menu/Woks/Woks.jsx</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/Footer/Footer.jsx</url>
+          <line>82</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/pages/menu/ProductCard/ProductCard.jsx</url>
+          <line>63</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
