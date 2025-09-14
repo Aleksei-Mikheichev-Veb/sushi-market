@@ -9,7 +9,8 @@ import ButtonsControl from "../UI/MyForm/ButtonsControl";
 import SendOrder from "../../sendMessage/SendOrder";
 import {clearBasket} from "../../Redux/baskerReducer";
 import useFetching from "../../myHook/useFetching";
-import MaskedInput from 'react-input-mask';
+import Error from "../UI/MyForm/Error";
+import { InputMask } from '@react-input/mask';
 
 const ContactDetails = () => {
     const {register, handleSubmit, formState: {errors}, control,watch} = useForm({mode: 'onBlur'});
@@ -33,34 +34,35 @@ const ContactDetails = () => {
             <div className={style.contactDetail}>
                 {isFetching && <div className={style.preloader}></div>}
                 <MyInput register={register} errors={errors} name={'name'} required={'Введите Ваше имя'} placeholder={'Ваше имя'}/>
-                <Controller
-                    name="phone"
-                    control={control}
-                    defaultValue=""
-                    rules={{
-                        required: true,
-                    }}
-                    render={({ field }) => (
-                        <MaskedInput
-                            mask="+7(999) 999 9999"
-                            maskChar="_"
-                            value={field.value}
-                            onChange={field.onChange}
-                        >
-                            {(inputProps) => (
-                                <MyInput register={register} errors={errors} name={'phone'} required={'Введите номер мобильного телефона'}
-                                         type={'tel'}
-                                         placeholder={'Мобильный телефон'}
-                                         pattern={{
-                                             // value: /^((\+7|7|8)+([0-9]){10})$/,
-                                             value: /^(\+)?(\d{1,2})?[( .-]*(\d{3})[) .-]*(\d{3,4})[ .-]?(\d{4})$/,
-                                             message:'Введите коррекный номер телефона'
-                                         }}
-                                />
-                            )}
-                        </MaskedInput>
-                    )}
-                />
+                <div className={style.inputWrapper}>
+                    <Controller
+                        name="phone"
+                        control={control}
+                        defaultValue=""
+                        rules={{
+                            required: "Введите номер мобильного телефона",
+                            pattern: {
+                                value: /^\+7\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}$/,
+                                message: "Введите корректный номер телефона",
+                            },
+                        }}
+                        render={({ field }) => (
+                            <InputMask
+                                mask="+7 (___) ___-__-__"
+                                replacement={{ _: /\d/ }}
+                                value={field.value || ''}
+                                onChange={(e) => {
+                                    console.log('Phone input change:', e.target.value); // Отладка
+                                    field.onChange(e);
+                                }}
+                                placeholder="Мобильный телефон"
+                                type="tel"
+                                className={style.input}
+                            />
+                        )}
+                    />
+                    {errors.phone && <Error>{errors.phone.message}</Error>}
+                </div>
             </div>
             <ButtonsControl />
         </Form>

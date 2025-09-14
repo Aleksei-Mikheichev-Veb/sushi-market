@@ -11,7 +11,6 @@ import Basket from "./component/pages/menu/Basket/Basket";
 import Delivery from "./component/pages/Delivery/Delivery";
 import AboutUs from "./component/pages/AboutUs/AboutUs";
 import Contacts from "./component/pages/Contacts/Contacts";
-import {YMaps} from "@pbe/react-yandex-maps";
 import Footer from "./component/Footer/Footer";
 import Home from "./component/pages/Home/Home";
 import HeaderMenu from "./component/Headers/HeaderMenu/HeaderMenu";
@@ -48,7 +47,7 @@ function App() {
                     <Route path={'/basket'} element={<Basket/>}/>
                     <Route path={'/delivery'} element={<Delivery/>}/>
                     <Route path={'/aboutUs'} element={<AboutUs/>}/>
-                    <Route path={'/contacts'} element={<YMaps><Contacts/></YMaps>}/>
+                    <Route path={'/contacts'} element={<Contacts/>}/>
                     <Route path={'/search'} element={<SearchProduct/>}/>
                 </Routes>
                 <OtherMenu/>

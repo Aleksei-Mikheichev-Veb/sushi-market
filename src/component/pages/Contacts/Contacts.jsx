@@ -3,7 +3,7 @@ import Title from "../../Title";
 import style from './Contacts.module.css'
 import {ReactComponent as Vkontakte} from './../../../image/icon/vk.svg'
 import {ReactComponent as Instagram} from './../../../image/icon/instagram.svg'
-import {Map, Placemark} from "@pbe/react-yandex-maps";
+// import {Map, Placemark} from "@pbe/react-yandex-maps";
 
 
 const Contacts = () => {
@@ -32,11 +32,11 @@ const Contacts = () => {
                     <div className={style.contacts_address}>г.Кострома м/р-н 3-ий Давыдовский д.32 ТЦ "Авокадо"</div>
                     <div className={style.contacts_phone}><a href="tel:+79051519191">+7-905-151-91-91</a></div>
                 </div>
-                <div className={style.contacts_map}>
-                    <Map defaultState={{ center: [57.741170, 41.004823], zoom: 15 }} className={style.map}>
-                        <Placemark defaultGeometry={[57.741170, 41.004823]} />
-                    </Map>
-                </div>
+                {/*<div className={style.contacts_map}>*/}
+                {/*    <Map defaultState={{ center: [57.741170, 41.004823], zoom: 15 }} className={style.map}>*/}
+                {/*        <Placemark defaultGeometry={[57.741170, 41.004823]} />*/}
+                {/*    </Map>*/}
+                {/*</div>*/}
             </div>
             <div className={style.contacts_card}>
                 <div className={style.contacts_body}>
@@ -44,11 +44,11 @@ const Contacts = () => {
                     <div className={style.contacts_address}>г.Кострома м/р-н Паново д.15 ТЦ "Паново"</div>
                     <div className={style.contacts_phone}><a href="tel:+74942-501101">+7(4942) 501-101</a></div>
                 </div>
-                <div className={style.contacts_map}>
-                    <Map defaultState={{ center: [57.736203, 40.908649], zoom: 15 }} className={style.map}>
-                        <Placemark defaultGeometry={[57.736203, 40.908649]} />
-                    </Map>
-                </div>
+                {/*<div className={style.contacts_map}>*/}
+                {/*    <Map defaultState={{ center: [57.736203, 40.908649], zoom: 15 }} className={style.map}>*/}
+                {/*        <Placemark defaultGeometry={[57.736203, 40.908649]} />*/}
+                {/*    </Map>*/}
+                {/*</div>*/}
             </div>
         </div>
     );

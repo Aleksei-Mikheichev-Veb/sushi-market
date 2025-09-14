@@ -4,11 +4,15 @@
     border-radius: 10px;
     width: 100%;
     cursor: pointer;
+    margin-bottom: 20px;
     user-select: auto !important;
 }
-.input:not(:last-child){
-    margin-bottom: 20px;
-}
+/*.input:not(:last-child){*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.input:last-child{*/
+/*    margin-bottom: 20px;*/
+/*}*/
 .input:focus{
     outline:3px solid #FE6600;
     border:none;
