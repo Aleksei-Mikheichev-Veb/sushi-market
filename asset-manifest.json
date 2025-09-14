@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sushi-market/static/css/main.9999b600.css",
-    "main.js": "/sushi-market/static/js/main.467a11ae.js",
+    "main.css": "/sushi-market/static/css/main.bf3c02d0.css",
+    "main.js": "/sushi-market/static/js/main.c47b5762.js",
     "static/media/circe.eot": "/sushi-market/static/media/circe.13bbfad0e7f851273f3c.eot",
     "static/media/circe.ttf": "/sushi-market/static/media/circe.814e4dd4329ffdb6c9ed.ttf",
     "static/media/circe_bold.eot": "/sushi-market/static/media/circe_bold.23b8280ab15052d5ba11.eot",
@@ -96,11 +96,11 @@
     "static/media/arrowBottom.svg": "/sushi-market/static/media/arrowBottom.82deffd8dcd99cf48f9c.svg",
     "static/media/circe.woff": "/sushi-market/static/media/circe.31d6cfe0d16ae931b73c.woff",
     "static/media/circe_bold.woff": "/sushi-market/static/media/circe_bold.31d6cfe0d16ae931b73c.woff",
-    "main.9999b600.css.map": "/sushi-market/static/css/main.9999b600.css.map",
-    "main.467a11ae.js.map": "/sushi-market/static/js/main.467a11ae.js.map"
+    "main.bf3c02d0.css.map": "/sushi-market/static/css/main.bf3c02d0.css.map",
+    "main.c47b5762.js.map": "/sushi-market/static/js/main.c47b5762.js.map"
   },
   "entrypoints": [
-    "static/css/main.9999b600.css",
-    "static/js/main.467a11ae.js"
+    "static/css/main.bf3c02d0.css",
+    "static/js/main.c47b5762.js"
   ]
 }
