@@ -38,7 +38,4 @@
 git clone https://github.com/Aleksei-Mikheichev-Veb/sushi-yes.git
 cd sushi-yes
 npm install
-<<<<<<< HEAD
 npm start
-=======
->>>>>>> da15d0b45a35f6ba956920c3e15db38a0665c151
